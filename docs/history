@@ -1,0 +1,15 @@
+
+1. сперва создали структуру файлов на локальном устройстве.
+2. git init Инициализация git
+3. git add Добавили все файлы в репозиторий
+4. git commit -m "Initial commit" сделали первый коммит
+5. git remote add origin https://github.com/ваше_имя/название_репозитория.git связали лок и гит
+6. git push -u origin master Отправили файлы из лок на гит
+
+Каждая папка, как отдельный проект.
+cd project1 перешли в эту папку
+git init   
+git add
+git commit -m "Initial commit for project1"
+
+
