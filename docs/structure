@@ -1,0 +1,47 @@
+#1. Преобразование элементов
+methods: map, lambda
+files: transform.py, test_transform.py
+
+#2. Фильтрация данных
+methods: filter, lambda
+files: filter_data.py, test_filter_data.py
+
+#3. Комбинирование коллекций
+methods: zip
+files: combine_collections.py, test_combine_collections.py
+
+#4. Индексация
+methods: enumerate
+files: enumerate_items.py, test_enumerate_items.py
+
+#5. Анализ коллекций
+methods: all, any
+files: analyze_collections.py, test_analyze_collections.py
+
+#6. Подсчёт элементов
+methods: filter, len
+files: count_elements.py, test_count_elements.py
+
+#7. Сортировка
+methods: sorted с ключом key
+files: sort_items.py, test_sort_items.py
+
+#8. Работа с вложенными коллекциями
+methods: Рекурсия или вложенные функции.
+files: nested_collections.py, test_nested_collections.py
+
+#9. Группировка данных:
+methods: dict, lambda
+files: group_data.py, test_group_data.py
+
+#10. Аггрегация данных:
+methods: sum, min, max, reduce (из модуля functools)
+files: aggregate_data.py, test_aggregate_data.py
+
+#Удаление дубликатов:
+methods: set
+files: remove_duplicates.py, test_remove_duplicates.py
+
+#12. Форматирование вывода:
+methods: Преобразование результата в удобный вид (например, строку или JSON)
+files: format_output.py, test_format_output.py

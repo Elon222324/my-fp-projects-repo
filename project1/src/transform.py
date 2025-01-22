@@ -28,18 +28,3 @@ def transform_collection(data: Iterable[Any], func: Callable[[Any], Any]) -> Ite
     except Exception as e:
         logger.error(f"Ошибка: {e}")
         return []
-
-#list
-print(transform_collection([1, 2, "3"], lambda x: x ** 2))
-print(transform_collection(["apple", "orange"], len))
-print(transform_collection(["apple", "orange"], lambda x: x.upper()))
-print(transform_collection([(1, 2), (3, 4)], str))
-
-#tuple
-print(transform_collection((1, 2, 3, 4, "5") , lambda x: x ** 2))
-
-#set
-print(transform_collection({1, 2, 3, 4, 5} , lambda x: x ** 2))
-print(transform_collection({"dog", "cat", "mouse"} , lambda x: x[::-1]))
-
-print(transform_collection(123 , lambda x: x**2))
