@@ -44,4 +44,4 @@ def any_check(collection: Union[List, Tuple], func: Callable[[Any], bool]) -> bo
         return False 
     raise TypeError("Поддерживаются только списки и кортежи.")
 
-print(any_check([1, 3, 5, 7], lambda x: x % 2 == 0))
+print(any_check((), lambda x: "Python" in x))
