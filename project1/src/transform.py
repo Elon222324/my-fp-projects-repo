@@ -17,6 +17,8 @@ def transform_collection(data: Iterable[Any], func: Callable[[Any], Any]) -> Ite
     func: function to apply to each element of the collection
     """
     try:
+        if not callable(func):
+            raise TypeError("Переданный аргумент 'func' должен быть функцией.")
         if isinstance(data, list):
             return list(map(func, data))                    
         elif isinstance(data, tuple):
