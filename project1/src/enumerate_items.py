@@ -22,5 +22,3 @@ def enumerate_items(collect: Union[List[Any], Tuple[Any, ...]]) -> List[Tuple[in
         
             
     return new_lst
-
-print(enumerate_items(("a", "b", "c")))
