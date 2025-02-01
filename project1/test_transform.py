@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch
-from project1.src.transform import transform_collection
+from src.transform import transform_collection
 
 class TestTransformCollection(unittest.TestCase):
     
