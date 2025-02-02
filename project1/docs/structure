@@ -38,7 +38,7 @@ files: group_data.py, test_group_data.py
 methods: sum, min, max, reduce (из модуля functools)
 files: aggregate_data.py, test_aggregate_data.py
 
-#Удаление дубликатов:
+#11. Удаление дубликатов:
 methods: set
 files: remove_duplicates.py, test_remove_duplicates.py
 
